@@ -1,0 +1,14 @@
+create DATABASE zensar;
+SHOW  DATABASES;
+create table Employee(Id Int,Name varchar(20),Designation Varchar(30),Salary int);
+insert into Employee (Id,Name,Designation,Salary) values(1,"Jyoti","Jr.Software Engineer",33333");
+insert into Employee (Id,Name,Designation,Salary) values(2,"Tanuja","Jr.Software Engineer",30333");
+insert into Employee (Id,Name,Designation,Salary) values (3,"Parag","Jr.Software Engineer",43333");
+insert into Employee (Id,Name,Designation,Salary) values(6,"Anuja","Network Engineer",23333");
+
+Select * from Employee;
+Select * from Employee where Id>=2 && Id<=5;
+Select * from Employee ORDER By Salary ASC;
+Update Employee Set Salary=48990 where Id=1;
+Delete from Employee where Name="Anuja";
+Select *from Employee;
