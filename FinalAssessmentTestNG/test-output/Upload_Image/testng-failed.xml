@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Upload_Image]">
+  <test thread-count="5" name="Ecommerce_TestCase(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://products.pisystindia.com/Ecommerce/admin/"/>
+    <classes>
+      <class name="TestCase.Ecommerce_TestCase">
+        <methods>
+          <include name="beforeClassMethod"/>
+          <include name="stopReport"/>
+          <include name="tearDown"/>
+          <include name="beforeMethodSetup"/>
+          <include name="validCouponLetters"/>
+        </methods>
+      </class> <!-- TestCase.Ecommerce_TestCase -->
+    </classes>
+  </test> <!-- Ecommerce_TestCase(failed) -->
+</suite> <!-- Failed suite [Upload_Image] -->

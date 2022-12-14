@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Upload_Image" verbose="1">
+	<test name="Ecommerce_TestCase">
+	<parameter name="browser" value="chrome"/>
+	<parameter name = "url" value="https://products.pisystindia.com/Ecommerce/admin/" />
+	<classes>
+		<class name ="TestCase.Ecommerce_TestCase"></class>	
+	</classes>
+	</test>
+</suite>
+
+         
+         

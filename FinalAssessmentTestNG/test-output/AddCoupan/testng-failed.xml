@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AddCoupan]">
+  <test thread-count="5" name="xlogist_TestCase(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://xlogist.pisystindia.com/mainhub/login"/>
+    <classes>
+      <class name="TestCase.xlogist_TestCase">
+        <methods>
+          <include name="specialsymbol"/>
+          <include name="StopTest"/>
+          <include name="Blank"/>
+          <include name="beforeClass"/>
+          <include name="asinterger"/>
+          <include name="asstringwithspaces"/>
+          <include name="setup"/>
+          <include name="stopReport"/>
+          <include name="invalid"/>
+          <include name="Maximumchar"/>
+        </methods>
+      </class> <!-- TestCase.xlogist_TestCase -->
+    </classes>
+  </test> <!-- xlogist_TestCase(failed) -->
+</suite> <!-- Failed suite [AddCoupan] -->

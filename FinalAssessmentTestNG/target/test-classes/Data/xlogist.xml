@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AddCoupan" verbose="1">
+	<test name="xlogist_TestCase">
+	<parameter name="browser" value="chrome"/>
+	<parameter name = "url" value="https://xlogist.pisystindia.com/mainhub/login" />
+	<classes>
+		<class name ="TestCase.xlogist_TestCase"></class>	
+	</classes>
+	</test>
+</suite>
+
+         
+         
